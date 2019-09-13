@@ -1,0 +1,49 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1500,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.root": "/src",
+    "liveSassCompile.settings.includeItems": [
+       "scss/vendors/_base.scss",
+       "scss/vendors/_variables.scss",
+       "scss/main.scss"
+    ],
+    "liveSassCompile.settings.autoprefix": [
+       "> 1%",
+       "last 3 version",
+       "Chrome >= 35",
+       "Firefox >= 38",
+       "Edge >= 10",
+       "Explorer >= 10",
+       "ie >= 10",
+       "iOS >= 8",
+       "Safari >= 8",
+       "Android 2.3",
+       "Android >= 4",
+       "Opera >= 12"
+    ],
+    "liveSassCompile.settings.formats": [{
+       "format": "expanded",
+       "extensionName": ".css",
+       "savePath": "/src/assets/css"
+    }],
+    "liveServer.settings.port": 5503,
+    "liveServer.settings.file": "index.html",
+   "liveServer.settings.host": "127.0.0.1",
+   "workbench.colorCustomizations": {
+      "activityBar.background": "#1d73cb",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#ef8fbf",
+      "activityBarBadge.foreground": "#15202b",
+      "titleBar.activeBackground": "#175a9e",
+      "titleBar.inactiveBackground": "#175a9e99",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveForeground": "#e7e7e799",
+      "statusBar.background": "#175a9e",
+      "statusBarItem.hoverBackground": "#1d73cb",
+      "statusBar.foreground": "#e7e7e7"
+   },
+   "peacock.color": "#175a9e"
+ }
