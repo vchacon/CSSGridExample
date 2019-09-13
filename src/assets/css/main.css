@@ -33,6 +33,7 @@
   grid-column: 2;
   border: 1px solid blue;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   background-color: gray;
 }
 
